@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Londrina+Outline&family=Luckiest+Guy&family=Orbitron:wght@500&family=Staatliches&family=Titan+One&display=swap');
+.home{
+    margin: 100px;
+}
+.word{
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 5px;
+    color: #cbf1ff;
+    text-shadow: 0 0 60px #212f5b, 0 0 70px #1d3376;
+}
+.input-field{
+    border: solid 3px #cbf1ff;
+    background: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 0 3px #315ad3 inset, 0 0 20px #315ad3;
+    margin: 40px;
+    width: 310px;
+    height: 40px;
+    font-family: 'Orbitron', sans-serif;
+    color: #cbf1ff;
+    font-size: 20px;
+}
+.guess-button{
+    font-family: "Londrina Outline", cursive;
+    font-size: 30px;
+    background-color: transparent;
+    color: white;
+    /* padding: 5px 30px; */
+    margin: 20px;
+    width: 150px;
+    text-align: center;
+    text-shadow: 0 0 40px #e95ed7, 0 0 70px #e95ed7;
+    border: solid #ffa7fe;
+    border-radius: 10px;
+    box-shadow: 0 0 0 1px #e95ed7 inset, 0 0 10px black;
+    /* margin: 50px 15px 0px 15px; */
+    font-weight: bold;
+    cursor: pointer;
+}
+.guess-button:hover{
+    background-color: #e95ed7;
+    box-shadow: 0 0 0 1px white inset, 0 0 10px white;
+    text-shadow: 0 0 40px white, 0 0 70px white;
+    color: white;   
+}
